@@ -152,7 +152,7 @@
 @media (max-width:500px) {
    
         .cabecalho{
-            background-color: rgb(16, 156, 16);
+            background-color: rgb(0, 110, 129);
             width: 100%;
             flex-direction: column;
         }
@@ -165,9 +165,11 @@
             flex-direction: row;
             width: 400px;
         }
+        .menu-opcao-cadastro{
+            display: none;
+        }
         .menu-opcao{
-            width: auto;
-            margin: 2;
+            
             align-items: center;
             justify-content: space-between;
         }
