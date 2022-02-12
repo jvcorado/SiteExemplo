@@ -152,7 +152,7 @@
 @media (max-width:500px) {
    
         .cabecalho{
-            background-color: rgb(0, 108, 116);
+            background-color: rgb(0, 116, 19);
             width: 100%;
             flex-direction: column;
         }
@@ -193,7 +193,12 @@
             justify-content: center;
             width: 100%;
         }
+        .conteudo-principal img{
+            width: 80%;
+            padding: 10px;
+        }
         .conteudo-principal p{
+            padding-top: 10px;
             width: auto;
             font-size: 16px;
         }
