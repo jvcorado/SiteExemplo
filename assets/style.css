@@ -152,7 +152,7 @@
 @media (max-width:500px) {
    
         .cabecalho{
-            background-color: aqua;
+            background-color: rgb(156, 154, 16);
             width: 100%;
             flex-direction: column;
         }
@@ -163,11 +163,13 @@
         }
         .menu{
             flex-direction: row;
-            width: 500px;
+            width: 400px;
         }
         .menu-opcao{
-            width: 100px;
+            width: 50px;
             margin: 10px;
+            align-items: center;
+            justify-content: space-between;
         }
         .conteudo{
             flex-direction: column;
