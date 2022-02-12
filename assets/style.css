@@ -181,8 +181,8 @@
         .conteudo-container{
             flex-direction: column;
         }
+        
         .conteudo-principal-container{
-            margin-top: 30px;
             flex-direction: column;
             height: 800px;
         }
