@@ -181,7 +181,7 @@
         .conteudo-container{
             flex-direction: column;
         }
-        
+
         .conteudo-principal-container{
             flex-direction: column;
             height: 800px;
@@ -203,6 +203,6 @@
             font-size: 16px;
         }
         .titulo{
-            
+            width: 100%;
         }
 }
