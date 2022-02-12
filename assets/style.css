@@ -152,7 +152,7 @@
 @media (max-width:500px) {
    
         .cabecalho{
-            background-color: rgb(0, 93, 116);
+            background-color: #6C63FF;
             width: 100%;
             flex-direction: column;
         }
