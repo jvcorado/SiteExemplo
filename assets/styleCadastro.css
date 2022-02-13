@@ -177,6 +177,7 @@ a{
         height: 80vh;
         padding: 10px;
         justify-content: space-between;
+        margin: 0;
     }
 
     .card1{
