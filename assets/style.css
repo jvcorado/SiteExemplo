@@ -184,7 +184,7 @@
 
         .conteudo-principal-container{
             flex-direction: column;
-            height: 850px;
+            height: 800px;
             padding: 40px;
         }
         .conteudo-principal{
