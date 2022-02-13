@@ -108,7 +108,6 @@
     cursor: pointer;
 }
 .conteudo-login{
-    background-color: rgb(156, 156, 156);
     width: 80%;
     height: 500px;
     display: flex;
@@ -177,3 +176,52 @@ button{
 a{
     color: white;
 }
+
+
+@media (max-width:500px) {
+   
+    .cabecalho{
+        background-color: #6C63FF;
+        width: 100%;
+        flex-direction: column;
+    }
+    .cabecalho-container{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .menu{
+        flex-direction: row;
+        width: 400px;
+    }
+    .menu-opcao-cadastro{
+        display: none;
+    }
+    .menu-opcao{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conteudo-login{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 70vh;
+        padding: 10px;
+       
+    }
+
+    .card1{
+        border-radius: 0 0 10px 10px ;
+        width: 100%;
+        height: 50%;
+        border: none;
+
+
+    }
+    .form{
+        width: 100%;
+        height: 50%;
+        border-radius: 10px 10px 0 0;
+
+    }
+}   
